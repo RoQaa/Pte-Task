@@ -1,0 +1,51 @@
+.hero {
+    background-color: #1C323A;
+}
+
+
+.view-my-works-btn {
+    border: none;
+    outline: none;
+    color: white;
+    padding: 2% 6%;
+    background-color: #455c66;
+    font-weight: 700;
+}
+
+.hero-divider {
+    display: block;
+    width: clamp(60px, 10vw, 120px);
+    height: clamp(15px, 0.5vw, 4px);
+    margin: clamp(16px, 3vw, 28px) 0;
+    animation: slideIn 3s ease forwards;
+    background: linear-gradient(90deg,
+            #d4af37,
+            #f5d76e,
+            #d4af37);
+}
+
+
+@keyframes slideIn {
+    from {
+        width: 0;
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.hero-img {
+    max-width: 75%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 768px) {
+    .hero-img {
+        max-width: 90%;
+        margin-top: 40px;
+    }
+}

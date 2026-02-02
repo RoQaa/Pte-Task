@@ -1,0 +1,11 @@
+#services {
+    background-color: #1C323A;
+}
+
+.card-bg{
+   background-color: #25465B !important;
+}
+
+/* .convert-color{
+    filter: brightness(0) saturate(100%) invert(85%) sepia(73%) saturate(7487%) hue-rotate(313deg) brightness(104%) contrast(88%);
+} */

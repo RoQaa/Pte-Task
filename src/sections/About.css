@@ -1,0 +1,15 @@
+.hero-divider-v {
+    display: block;
+    width: clamp(119px, 10vw, 120px);
+    height: clamp(93px, 0.5vw, 4px);
+    margin: clamp(16px, 3vw, 28px) 0;
+    animation: slideIn 2s ease forwards;
+    background: linear-gradient(90deg,
+            #d4af37,
+            #f5d76e,
+            #d4af37);
+    /* transform: rotate(90deg) */
+}
+.about{
+    background-color: #25465B;
+}

@@ -1,0 +1,59 @@
+.navbar {
+    background-color: #1C323A;
+    border-bottom: 2px solid grey ;
+}
+
+
+.navbar-toggler {
+    border: none !important;
+    font-size: 1.25rem;
+}
+
+.navbar-toggler:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.nav-link {
+    color: white !important;
+    font-weight: 500 !important;
+    position: relative;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: #6596b3 !important;
+}
+
+.nav-link::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 2px;
+    background-color: #6596b3;
+    visibility: hidden;
+    transition: 0.3s ease-in-out;
+}
+
+/* hover */
+.nav-link:hover::before,
+/* active */
+.nav-link.active::before {
+    width: 100%;
+    visibility: visible;
+}
+
+.say-Hello-btn{
+    border: none;
+    outline: none;
+    color: white;
+    padding: 1% 4%;
+    background-color: #455c66;
+    font-weight: 700;
+}
+
+
+
