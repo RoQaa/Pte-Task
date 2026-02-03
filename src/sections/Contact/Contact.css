@@ -1,3 +1,35 @@
-#contact{
-    background-color: #4b6771;
+.contact-section {
+  background: #1C323A;
+  color: #fff;
+}
+
+.contact-subtitle {
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  opacity: 0.8;
+}
+
+.contact-title {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.contact-form {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 6px;
+}
+
+.contact-form .form-control {
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  color: #fff;
+}
+
+.contact-form .form-control::placeholder {
+  color: #ddd;
+}
+
+.contact-form .form-control:focus {
+  box-shadow: none;
+  background: rgba(255, 255, 255, 0.25);
 }

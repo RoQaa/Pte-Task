@@ -12,7 +12,7 @@ export default function Portfolio() {
     const works = [work1, work2, work3, work4, work5, work6];
 
     return (
-        <section className="portfolio-section py-5">
+        <section className="portfolio-section py-5" id="portfolio">
             <div className="container text-center">
 
                 <span className="portfolio-subtitle">Portfolio</span>

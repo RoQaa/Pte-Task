@@ -10,7 +10,11 @@ export default function Hero() {
                         <h1 className="display-4 fw-bold">Hello,<br />I'm a <span className="text-info">Web Designer</span></h1>
                         <span className="hero-divider"></span>
                         <p className=" my-4 h4">I beautifully design and build clean, modern and professional websites.</p>
-                        <button className="view-my-works-btn">View My Works</button>
+                        <button className="view-my-works-btn" onClick={() => {
+                            document.getElementById("portfolio")?.scrollIntoView({
+                                behavior: "smooth",
+                            });
+                        }}>View My Works</button>
                     </div>
                     <div className="col-md-6 text-center animate__animated animate__fadeInRight">
                         <img
