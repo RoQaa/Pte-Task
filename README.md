@@ -1,70 +1,118 @@
-# Getting Started with Create React App
+# Landing Portfolio Page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive **Landing Portfolio Page** built with **React** and **Bootstrap**, designed to showcase personal projects, services, blog posts, and contact information in a professional way.
 
-## Available Scripts
+## About
+This project is a **single-page portfolio landing website** built with React. It includes multiple sections to showcase your personal brand, skills, work, blog posts, and contact details. The design is fully **responsive** and **modern**, using smooth scroll animations for a better user experience. The page structure includes:
 
-In the project directory, you can run:
+- **Hero**: Introduction with call-to-action  
+- **About**: Biography and skills  
+- **Services**: Offered services or expertise  
+- **Portfolio**: Showcase of projects with images and descriptions  
+- **Blog**: Featured posts or updates  
+- **Contact**: Form to reach out  
+- **Navbar**: For navigation  
+- **Footer**: Additional information  
 
-### `npm start`
+## Preview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Here is a preview of the portfolio landing page UI:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![Portfolio UI](public/Landing%20Page.jpg)
 
-### `npm test`
+## Features
+- Fully responsive layout (mobile, tablet, desktop)  
+- Smooth scroll animations using **Animate.css** (or custom animations)  
+- Modular React sections for easy customization  
+- Ready for deployment as a **PWA** (Progressive Web App)  
+- Easy to update content, images, colors, and fonts  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologies
+- **React** – Front-end framework  
+- **Bootstrap 5** – Responsive layout and styling  
+- **React Router** – Optional for routing  
+- **Animate.css or custom animations** – For smooth effects  
+- **Custom CSS/SCSS** – For styling sections and theme  
 
-### `npm run build`
+## Folder Structure
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+├── public/
+│ ├── favicon.ico
+│ ├── manifest.json
+│ ├── screenshot.png
+│ └── index.html
+├── src/
+│ ├── sections/
+│ │ ├── Hero/
+│ │ ├── About/
+│ │ ├── Services/
+│ │ ├── Portfolio/
+│ │ ├── Blog/
+│ │ └── Contact/
+│ ├── components/
+│ ├── App.jsx
+│ ├── pages/Home.jsx
+│ ├── assets/
+│ └── index.js
+├── package.json
+└── README.md
+## Prerequisites:
+- Node.js (v24 or above)
+- npm (v11 or above)
+## Installation
+1. Clone the repository:
+```bash
+git clone https://github.com/RoQaa/Pte-Task.git
+```
+2. Install dependencies:
+```bash
+cd portfolio-landing
+npm install
+```
+3. Run the project locally:
+```bash
+npm start
+```
+- Open http://localhost:3000 in your browser
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Usage
+- All content is modular in `src/pages/` Example structure in  `Home.jsx`:
+```bash
+import Hero from "../sections/Hero/Hero.jsx";
+import About from "../sections/About/About.jsx";
+import Services from "../sections/Services/Services.jsx";
+import Portfolio from "../sections/Portfolio/Portfolio.jsx";
+import Blog from "../sections/Blog/Blog.jsx";
+import Contact from "../sections/Contact/Contact.jsx";
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+export default function Home() {
+    return (
+        <>
+            <Hero />
+            <About />
+            <Services />
+            <Portfolio />
+            <Blog />
+            <Contact />
+        </>
+    );
+}
+```
+- `App.jsx` wraps `<Home />` with Navbar and Footer.
+- Replace images in `src/assets` and edit content in each section to customize your portfolio.
+##  Customization
+- Navbar / Footer: Modify in `src/components`
+- Hero Section: Update text, CTA buttons, or background images in `Hero.jsx`
+- Portfolio / Blog: Replace placeholder projects/posts with your own content
+- Theme colors & fonts: Edit CSS or SCSS files to match your style
+## Deployment
+- Build the project:
+```bash
+npm run build
+```
+- Upload the contents of `build/` to your server.
+- Ensure your server serves `index.html` for all URLs if using React Router.
 
-### `npm run eject`
+## License
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
