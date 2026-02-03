@@ -1,6 +1,6 @@
 import "animate.css";
 import "./Hero.css";
-import profileImg from "../imgs/profile.jpg";
+import profileImg from "../../imgs/profile.jpg";
 export default function Hero() {
     return (
         <section className="container-fluid hero">

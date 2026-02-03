@@ -1,9 +1,9 @@
-import work1 from "../imgs/work-1.jpg";
-import work2 from "../imgs/work-2.jpg";
-import work3 from "../imgs/work-3.jpg";
-import work4 from "../imgs/work-4.jpg";
-import work5 from "../imgs/work-5.jpg";
-import work6 from "../imgs/work-6.jpg";
+import work1 from "../../imgs/work-1.jpg";
+import work2 from "../../imgs/work-2.jpg";
+import work3 from "../../imgs/work-3.jpg";
+import work4 from "../../imgs/work-4.jpg";
+import work5 from "../../imgs/work-5.jpg";
+import work6 from "../../imgs/work-6.jpg";
 
 import "./Portfolio.css";
 

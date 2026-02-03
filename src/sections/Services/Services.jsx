@@ -1,7 +1,7 @@
 import "./Services.css"
-import wordPress from "../imgs/wordPress-logo.png"
-import psd from "../imgs/psd.png"
-import web from "../imgs/web.png"
+import wordPress from "../../imgs/wordPress-logo.png"
+import psd from "../../imgs/psd.png"
+import web from "../../imgs/web.png"
 export default function Services() {
     const services = [
         {

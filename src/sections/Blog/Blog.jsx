@@ -1,6 +1,6 @@
-import blog1 from "../imgs/blog-1.jpg";
-import blog2 from "../imgs/blog-2.jpg";
-import blog3 from "../imgs/blog-3.jpg";
+import blog1 from "../../imgs/blog-1.jpg";
+import blog2 from "../../imgs/blog-2.jpg";
+import blog3 from "../../imgs/blog-3.jpg";
 import "./Blog.css";
 export default function Blog() {
     const blogs = [
