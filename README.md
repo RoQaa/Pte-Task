@@ -57,8 +57,8 @@ Here is a preview of the portfolio landing page UI:
 ├── package.json
 └── README.md
 ## Prerequisites:
-- Node.js (v24 or above)
-- npm (v11 or above)
+- **Node.js** (v24 or above)
+- **npm** (v11 or above)
 ## Installation
 1. Clone the repository:
 ```bash
@@ -101,10 +101,10 @@ export default function Home() {
 - `App.jsx` wraps `<Home />` with Navbar and Footer.
 - Replace images in `src/assets` and edit content in each section to customize your portfolio.
 ##  Customization
-- Navbar / Footer: Modify in `src/components`
-- Hero Section: Update text, CTA buttons, or background images in `Hero.jsx`
-- Portfolio / Blog: Replace placeholder projects/posts with your own content
-- Theme colors & fonts: Edit CSS or SCSS files to match your style
+- **Navbar / Footer**: Modify in `src/components`
+- **Hero Section**: Update text, CTA buttons, or background images in `Hero.jsx`
+- **Portfolio / Blog**: Replace placeholder projects/posts with your own content
+- Theme colors & fonts: Edit **CSS** or **SCSS** files to match your style
 ## Deployment
 - Build the project:
 ```bash
