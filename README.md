@@ -66,7 +66,7 @@ git clone https://github.com/RoQaa/Pte-Task.git
 ```
 2. Install dependencies:
 ```bash
-cd portfolio-landing
+cd Pte-Task
 npm install
 ```
 3. Run the project locally:
