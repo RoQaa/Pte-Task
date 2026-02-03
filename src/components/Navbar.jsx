@@ -55,7 +55,7 @@ export default function Navbar() {
                     <button
                         className="say-Hello-btn"
                         onClick={() => {
-                            document.getElementById("blog")?.scrollIntoView({
+                            document.getElementById("contact")?.scrollIntoView({
                                 behavior: "smooth",
                             });
                         }}
