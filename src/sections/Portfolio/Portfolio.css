@@ -60,7 +60,6 @@
   transition: transform 0.5s ease;
 }
 
-/* Hover Effect بسيط */
 .portfolio-item:hover img {
   transform: scale(1.05);
 }
