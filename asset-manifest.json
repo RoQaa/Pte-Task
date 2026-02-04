@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Pte-Task/static/css/main.f33952c5.css",
-    "main.js": "/Pte-Task/static/js/main.153306dd.js",
+    "main.js": "/Pte-Task/static/js/main.8163f759.js",
     "static/js/453.69308bcd.chunk.js": "/Pte-Task/static/js/453.69308bcd.chunk.js",
     "static/media/profile.jpg": "/Pte-Task/static/media/profile.3cee17883d59a77ca3ce.jpg",
     "static/media/wordPress-logo.png": "/Pte-Task/static/media/wordPress-logo.5f2614e3770d18501a0b.png",
@@ -9,11 +9,11 @@
     "static/media/web.png": "/Pte-Task/static/media/web.0ede26f746cb6ce39ad9.png",
     "index.html": "/Pte-Task/index.html",
     "main.f33952c5.css.map": "/Pte-Task/static/css/main.f33952c5.css.map",
-    "main.153306dd.js.map": "/Pte-Task/static/js/main.153306dd.js.map",
+    "main.8163f759.js.map": "/Pte-Task/static/js/main.8163f759.js.map",
     "453.69308bcd.chunk.js.map": "/Pte-Task/static/js/453.69308bcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f33952c5.css",
-    "static/js/main.153306dd.js"
+    "static/js/main.8163f759.js"
   ]
 }
