@@ -35,7 +35,7 @@ Here is a preview of the portfolio landing page UI:
 - **Custom CSS/SCSS** – For styling sections and theme  
 
 ## Folder Structure
-
+```bash
 ├── public/
 │ ├── favicon.ico
 │ ├── manifest.json
@@ -56,6 +56,7 @@ Here is a preview of the portfolio landing page UI:
 │ └── index.js
 ├── package.json
 └── README.md
+```
 ## Prerequisites:
 - **Node.js** (v24 or above)
 - **npm** (v11 or above)
