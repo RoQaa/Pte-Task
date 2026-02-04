@@ -60,6 +60,8 @@ Here is a preview of the portfolio landing page UI:
 ## Prerequisites:
 - **Node.js** (v24 or above)
 - **npm** (v11 or above)
+## Important Notes:
+- **Don't** open at Safari on iOS < 15 because of some  CSS selector property is not supported by it.
 ## Installation
 1. Clone the repository:
 ```bash
