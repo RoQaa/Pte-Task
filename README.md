@@ -114,6 +114,12 @@ npm run build
 - Upload the contents of `build/` to your server.
 - Ensure your server serves `index.html` for all URLs if using React Router.
 
+## Live Demo
+
+The project is deployed on **GitHub Pages** and can be accessed here:
+
+- https://roqaa.github.io/Pte-Task/
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
